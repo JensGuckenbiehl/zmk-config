@@ -1,0 +1,13 @@
+/* source key position labels */
+#include "zmk-helpers/key-labels/totem.h"
+
+#define X_LH  &none      // thumb row, left
+#define X_RH  &none  // thumb row, right
+#define X_LB  &none // thumb row, left
+#define X_RB  &none // thumb row, right
+
+/* activate bluetooth */
+#define CONFIG_WIRELESS
+
+/* source the main keymap */
+#include "base.keymap"
